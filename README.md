@@ -83,17 +83,71 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+Follow these steps to run the project locally:
+
+---
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/potato-disease-classifier.git
-cd potato-disease-classifier
+cd potato-disease-classifier 
+```
 
-2. Install Dependencies
+### 2️⃣ Install Anaconda (if not installed)
+
+- Download Anaconda from:  
+  https://www.anaconda.com/download  
+
+- Install it with default settings  
+
+---
+
+### 3️⃣ Open Anaconda Prompt
+
+- Search **"Anaconda Prompt"** in Windows  
+- Right-click → **Run as Administrator**
+
+---
+
+### 4️⃣ Create & Activate Virtual Environment
+```bash
+conda create -n env_for_webapp python=3.10 -y
+conda activate env_for_webapp
+```
+
+### 5️⃣ Install Dependencies
+```bash
 pip install flask tensorflow keras pillow numpy
+```
 
+### 6️⃣ Download Model Weights
+To run this project, you need the trained model weights.
 
-3. Run the Application
+🔗 Download from Google Drive::  
+https://drive.google.com/file/d/1R47eGBS7Tj1asoNvlCxmmT1ZIlbLgHiu/view?usp=sharing
+
+- Place the file inside:
+  -> model/model.h5
+
+### 7️⃣ Run the Application
+
+1. Open **Anaconda Prompt** (Run as Administrator)
+
+2. Activate your environment:
+```bash
+conda activate env_for_webapp
+```
+3. Navigate to the project directory:
+```bash
+cd potato-disease-classifier
+```
+4. Run the application:
+```bash
 python app.py
+```
 
-4. Open in Browser
-http://localhost:5000
+---
+
+###  8️⃣ Open in Browser
+http://127.0.0.1:5000
+
