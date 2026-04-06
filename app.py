@@ -28,7 +28,7 @@ def build_model():
     return model
 # Load model
 model = build_model()
-model.load_weights('model/model.h5')
+model.load_weights('model/eff.weights.h5')
 # Helper: check file type
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
