@@ -2,8 +2,6 @@
 
 > An AI-powered web application that detects potato leaf diseases using deep learning (EfficientNetB7).
 
-![Project Interface](images/webpage.png)
-
 ---
 
 ## 🤖 What is this Project?
@@ -37,7 +35,7 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
 
 ---
 
-## 🖼️ Sample Results
+## 🖼️ ![Project Interface]
 
 ### 🔹 Upload Interface
 ![Upload Page](images/upload.png)
@@ -75,7 +73,7 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
     ├── static/
     │   └── uploads/        # Uploaded images
     ├── templates/          # HTML files
-    ├── model/              # Trained model
+    ├── model/              # Trained model (model.h5)
     ├── app.py              # Flask app
     └── README.md
 
