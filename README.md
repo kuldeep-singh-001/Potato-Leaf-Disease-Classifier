@@ -72,7 +72,7 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
     ├── static/
     │   └── uploads/        # Uploaded images
     ├── templates/          # HTML files
-    ├── model/              # Trained model (model.h5)
+    ├── model/              # Trained model (eff.weights.h5)
     ├── app.py              # Flask app
     └── README.md
 
@@ -124,7 +124,7 @@ To run this project, you need the trained model weights.
 https://drive.google.com/file/d/1R47eGBS7Tj1asoNvlCxmmT1ZIlbLgHiu/view?usp=sharing
 
 - Place the file inside:
-  -> model/model.h5
+  -> model/eff.weights.h5
 
 ### 7️⃣ Run the Application
 
