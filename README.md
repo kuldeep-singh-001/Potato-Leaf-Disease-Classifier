@@ -71,14 +71,13 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
 
 ## 📁 Project Structure
 
-project/
-├── static/
-│ └── uploads/ # Uploaded images
-├── templates/ # HTML files
-├── model/ # Trained model
-├── app.py # Flask app
-└── README.md
-
+    project/
+    ├── static/
+    │   └── uploads/        # Uploaded images
+    ├── templates/          # HTML files
+    ├── model/              # Trained model
+    ├── app.py              # Flask app
+    └── README.md
 
 ---
 
