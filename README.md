@@ -42,12 +42,9 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
 ### 🔹 Upload Interface
 ![Upload Page](images/upload.png)
 
-### 🔹 Prediction Result
-![Result Page](images/late_blight.png)
-
 ---
 
-## 🌿 Disease Categories
+## 🌿 Prediction With Disease Categories
 
 ### 1️⃣ Early Blight
 ![Early Blight](images/early_blight.png)
