@@ -19,8 +19,7 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
   - Early Blight  
   - Late Blight  
   - Healthy Leaf  
-- **Simple Web Interface** — Upload and get instant results  
-- **Image Preview** — Displays uploaded image with prediction  
+- **Simple Web Interface** — Upload and get instant results   
 - **Fast & Accurate Predictions**  
 
 ---
@@ -35,7 +34,7 @@ Instead of manual inspection, users can simply upload a leaf image, and the mode
 
 ---
 
-## 🖼️ ![Project Interface]
+## 🖼️ Project Interface
 
 ### 🔹 Upload Interface
 ![Upload Page](images/upload.png)
