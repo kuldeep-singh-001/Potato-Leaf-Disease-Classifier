@@ -121,7 +121,7 @@ pip install flask tensorflow keras pillow numpy
 To run this project, you need the trained model weights.
 
 🔗 Download from Google Drive::  
-https://drive.google.com/file/d/1R47eGBS7Tj1asoNvlCxmmT1ZIlbLgHiu/view?usp=sharing
+[https://drive.google.com/file/d/1R47eGBS7Tj1asoNvlCxmmT1ZIlbLgHiu/view?usp=sharing](https://drive.google.com/file/d/1QfUcessxUkYiBmXAwgswDbhbAHUtfWbO/view?usp=sharing)
 
 - Place the file inside:
   -> model/model.h5
