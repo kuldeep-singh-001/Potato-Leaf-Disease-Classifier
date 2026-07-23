@@ -1,4 +1,5 @@
 import os
+import gdown
 import numpy as np
 from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
@@ -27,8 +28,31 @@ def build_model():
     model = Model(inputs=base_model.input, outputs=outputs)
     return model
 # Load model
+MODEL_PATH = "model/eff.weights.h5"
+
+FILE_ID = "YOUR_GOOGLE_DRIVE_FILE_ID"
+
+
+def download_model():
+
+    if os.path.exists(MODEL_PATH):
+        print("Model already exists.")
+        return
+
+    print("⬇ Downloading model...")
+
+    os.makedirs("model", exist_ok=True)
+
+    url = f"https://drive.google.com/uc?id={FILE_ID}"
+
+    gdown.download(url, MODEL_PATH, quiet=False)
+
+    print("Model Download Complete.")
+    
+download_model()
 model = build_model()
-model.load_weights('model/eff.weights.h5')
+model.load_weights(MODEL_PATH)
+
 # Helper: check file type
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
